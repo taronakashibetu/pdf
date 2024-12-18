@@ -25,7 +25,7 @@ jobs:
 
     - name: Build EXE
       run: |
-        pyinstaller --onefile main.py
+        pyinstaller --onefile untitled2.py
       # 出力ファイルは `dist/main.exe` に生成されます
 
     - name: Upload EXE to Artifacts
